@@ -3,6 +3,8 @@ A CircuitPython class and example code to use the Kitronik Simply Servos board f
 
 To use, save SimpyServos.py file onto the Pico so it can be imported.
 
+You'll also need to copy the `adafruit_pioasm.mpy` file into the `lib` folder on your Pico. You can get this file from the [Adafruit CircuitPython Bundle](https://circuitpython.org/libraries).
+
 ## Import SimplyServos.py and construct an instance:
 ``` python
 from SimplyServos import KitronikSimplyServos
